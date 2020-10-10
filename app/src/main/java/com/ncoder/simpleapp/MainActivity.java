@@ -27,6 +27,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
+        // Code Written by Nahin the Coder
         MobileAds.initialize(this, getString(R.string.ADMOB_ADS_UNIT_ID));
         refreshAd();
     }
